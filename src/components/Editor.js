@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const Editor = ({ onChange, markdownValue }) => (
     <textarea id="editor" value={markdownValue} onChange={onChange} />
